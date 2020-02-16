@@ -79,6 +79,7 @@ def saveCode(path,fname,data):
 if __name__=="__main__":
     if not localGitUserExists():
         print("No git config info found ...")
+        addGitUser()
         jdata = getConfig()
         if not 'username' in jdata or not 'useremail' in jdata:
             print("Config file missing or corrupted....")

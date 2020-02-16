@@ -7,5 +7,12 @@ Lots Commits
 
 ```sh
 $ pip3 install requests
+```
+
+
+
+# In future I want to get random gists so maybe beautiful soup?
+# Or some Gist API?
+```
 $ pip3 install beautifulsoup4
 ```
