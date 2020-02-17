@@ -19,14 +19,16 @@
   - Save quote to silly file name
   - Run commit to github repo
 
-
+### Packages
 
 ```sh
 $ pip3 install requests
 ```
 
-### In future I want to get random gists so maybe beautiful soup?
-### Or some Gist API?
+### Future Packages
+
+- Unless gist makes it easier to find a random gist.
+
 ```
 $ pip3 install beautifulsoup4
 ```
