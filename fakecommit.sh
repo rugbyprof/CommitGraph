@@ -2,12 +2,12 @@
 
 case "$1" in 
 start)
-   /path/to/fakecommit.sh &
+   ./fakecommit.sh &
    echo $!>/var/run/fakecommit.pid
    ;;
 stop)
-   kill `cat /usr/local/bin/fakecommit.pid`
-   rm /usr/local/bin/fakecommit.pid
+   kill `cat /var/run/fakecommit.pid`
+   rm /var/run/fakecommit.pid
    ;;
 restart)
    $0 stop
